@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import { signUp } from '../../store/actions/authAction';
+import { signUp } from '../../store/authDuck';
 
-class SignIn extends Component {
+class SignUp extends Component {
 	state = {
 		firstName: '',
 		lastName: '',
@@ -74,4 +74,4 @@ const mapDispatchToProps = (dispatch) => {
 	};
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(SignIn);
+export default connect(mapStateToProps, mapDispatchToProps)(SignUp);

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import { signOut } from '../../store/actions/authAction';
+import { signOut } from '../../store/authDuck';
 
 const SignedInLinks = (props) => {
 	//console.log(props)

@@ -46,7 +46,7 @@ class NewReview extends Component {
 								name="action"
 								className="btn waves-effect waves-light red accent-4 z-depth-3"
 							>
-								Post<i class="material-icons right">send</i>
+								Post<i className="material-icons right">send</i>
 							</button>
 						</div>
 					</form>
